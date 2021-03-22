@@ -1,0 +1,131 @@
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="apple-touch-icon" type="image/png"
+        href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+    <link rel="mask-icon" type=""
+        href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
+        color="#111">
+
+
+    <title>CodePen - Responsive Tables using LI</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+
+
+
+
+    <script>
+        window.console = window.console || function (t) {};
+
+    </script>
+
+
+
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+
+    </script>
+
+
+</head>
+<div class="container">
+    <h2>Dewan Bandaraya<br />Kuala Lumpur <small>SENARI SEMAK BAGI PERMOHANAN PERKHIDAMATAN KUTIPAN SAMPAH/CUCAN
+            LONGKANG/SAPUAN JALAN DAN PEMOTONGAN RUMPUT</small></h2>
+    <ul class="responsive-table">
+        <li class="table-header">
+            <div class="col col-1">Bil.</div>
+            <div class="col col-4">Butrian</div>
+            <div class="col col-3">Semakan Dokumen</div>
+            <div class="col col-2">Status</div>
+            <div class="col col-2">Catatan</div>
+
+
+
+        </li>
+        <li class="table-row">
+            <div class="col col-1" data-label="Bil">1</div>
+            <div class="col col-4" data-label="Butrian">
+                <ul>
+                    <li style="padding: 0px 0px 0px;" type="checkbox">i. Kutipan Sampah<input type="checkbox"></li>
+                    <li style="padding: 0px 0px 0px;">ii. Supuan Jalan<input type="checkbox"></li>
+                    <li style="padding: 0px 0px 0px;">iii. Cucian Longkang<input type="checkbox"></li>
+                    <li style="padding: 0px 0px 0px;">iv. Pemotongan Rumput<input type="checkbox"></li>
+                </ul>
+            </div>
+            <div class="col col-3" data-label="Semakan Dokumen">Muat Naik Dokumen</div>
+            <div class="col col-2" data-label="Status">Pending</div>
+            <div class="col col-2" data-label="Catatan">Pending</div>
+
+        </li>
+        <li class="table-row">
+            <div class="col col-1" data-label="Bil">2.</div>
+            <div class="col col-4" data-label="Butrian">Surat salinan CF/CCC/Borang F</div>
+            <div class="col col-3" data-label="Semakan Dokumen">Muat Naik Dokumen</div>
+            <div class="col col-2" data-label="Status">Pending</div>
+            <div class="col col-2" data-label="Catatan">Pending</div>
+
+        </li>
+        <li class="table-row">
+            <div class="col col-1" data-label="Bil">3.</div>
+            <div class="col col-4" data-label="Butrian">Dinyatakan nama banguanan/nama taman yang henddak diberi
+                perkhidmatan</div>
+            <div class="col col-3" data-label="Semakan Dokumen"></div>
+            <div class="col col-2" data-label="Status">Pending</div>
+            <div class="col col-2" data-label="Catatan">Pending</div>
+
+        </li>
+        <li class="table-row">
+            <div class="col col-1" data-label="Bil">4.</div>
+            <div class="col col-4" data-label="Butrian">Dinyatakan nama banguanan / nama taman yang hendak diberi
+                perkhidmatan</div>
+            <div class="col col-3" data-label="Semakan Dokumen"></div>
+            <div class="col col-2" data-label="Status">Pending</div>
+            <div class="col col-2" data-label="Catatan">Pending</div>
+
+        </li>
+        <li class="table-row">
+            <div class="col col-1" data-label="Bil">5.</div>
+            <div class="col col-4" data-label="Butrian">Salinan Status Pembangunan
+                <ul>
+                    <li style="padding: 0px 0px 0px;">i. Strata "Title"<input type="checkbox"></li>
+                    <li style="padding: 0px 0px 0px;">ii. Hak Milik Kekal<input type="checkbox"></li>
+                </ul>
+            </div>
+            <div class="col col-3" data-label="Semakan Dokumen">Muat Naik Dokumen</div>
+            <div class="col col-2" data-label="Status">Pending</div>
+            <div class="col col-2" data-label="Catatan">Pending</div>
+
+        </li>
+        <li class="table-row">
+            <div class="col col-1" data-label="Bil">6.</div>
+            <div class="col col-4" data-label="Butrian">Bagi status pembanhuan selain strata "title" Disertakan
+                inventori kawasan bagi permohonan
+                Pemotongan rumput seperti :-
+                <ul>
+                    <li style="padding: 12px 0px 0px;">i. Nama Jalan<input type="checkbox"></li>
+                    <li style="padding: 0px 0px 0px;">ii. Panjang jalan mengikut nama jalan<input type="checkbox"></li>
+                    <li style="padding: 0px 0px 0px;">iii.Panjang longkang<input type="checkbox"></li>
+                    <li style="padding: 0px 0px 0px;">iv. Luas kawasan berumput<input type="checkbox"></li>
+                    <li style="padding: 0px 0px 0px;">v. Luas kawasan TPKK<input type="checkbox"></li>
+                    <li style="padding: 0px 0px 0px;">vi. Luas kawasan lapang(parkir area) sekiranya berkaitan <input
+                            type="checkbox"></li>
+                </ul>
+                *Semua malklumat inventori tersebut dinyantakan di dalam <br>pelan kawasan / pembanguan
+                menggunakan kertas <br> A3 x 6 helaii dan diwarnakan
+            </div>
+            <div class="col col-3" data-label="Semakan Dokumen"></div>
+            <div class="col col-2" data-label="Status">Pending</div>
+            <div class="col col-2" data-label="Catatan">Pending</div>
+
+        </li>
+    </ul>
+</div>
