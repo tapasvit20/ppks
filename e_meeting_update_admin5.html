@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>e_meeting_update</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="" rel="icon">
+    <link href="" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/pengusuru.css" rel="stylesheet">
+</head>
+<style>
+    /******** default stuff *************/
+    * {
+        box-sizing: border-box;
+    }
+
+    .page1 {
+        margin-top: -6%;
+        width: 100%;
+        height: 32.5vh;
+    }
+
+    .page2 {
+        width: 100%;
+        height: 70vh;
+    }
+
+
+    /****************************** setting semi trans background when scrolled *******************/
+
+    .page1 {
+        background: url("/assets/img/dbkladmin.jpg") no-repeat top center;
+        /*responsive bckgrnd img */
+        background-size: cover;
+        background-attachment: fixed;
+        /* parallex effect 1*/
+        position: relative;
+    }
+
+    .page2 {
+        background-color: black;
+        opacity: 0.75;
+
+    }
+
+    .page2wrapper {
+        background:
+            url("/assets/img/dbkladmin.jpg") no-repeat center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .content {
+        color: white;
+        padding: 12%;
+    }
+
+    .card {
+        margin: 5% auto;
+
+
+    }
+
+    .btn {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 3%;
+
+    }
+
+    .error-msg {
+        margin-top: -23px;
+    }
+
+</style>
+
+
+<body>
+
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top header-inner-pages">
+        <div class="container d-flex">
+            <div class="contact-info mr-auto">
+                <i class="icofont-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
+                <i class="icofont-phone"></i> +1 5589 55488 55
+            </div>
+            <div class="social-links">
+                <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                
+                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-inner-pages">
+        <div class="container d-flex align-items-center">
+
+            <img src="./assets/img/logo.png" class="logo" alt="" style="width: 2rem;">
+            <h1 class="logo mr-auto"><a href="index.html" style="font-size: 27px;">PPKS</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="admin.html">Home</a></li>
+                    <li><a href="e_meeting_update_admin5.html">E_meeting</a></li>
+                    <li><a href="TBD.html">Agenda dan Minit</a></li>
+                </ul>
+            </nav><!-- .nav-menu -->
+
+        </div>
+    </header><!-- End Header -->
+    <section id="home" class="inner-page">
+        <div class="card" style="box-shadow: 0 0 30px rgb(214 215 216 / 60%);">
+            <div class="page1">
+            </div>
+            <div class="page2wrapper">
+                <div class="page2">
+                    <div class="content">
+                        <h1>JABATAN KESIHATAN DAN ALAM SEKITAR</h1>
+                        <h1>DAN AAM SEKITAR</h1>
+                        <h2>Ke arah menjadikan bandar raya Kuala Lumpur sihat dan sejahtera.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <main>
+        <section class="inner-page">
+            <div class="card" style="box-shadow: 0 0 30px rgb(214 215 216 / 60%);">
+                <!-- ======= Services Section ======= -->
+                <section id="Work Payment Claims" class="services">
+                    <div class="container">
+
+                        <div class="section-title">
+                            <span>e-Meeting Update</span>
+                            <h2>e-Meeting Update</h2>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="card modal-dialog modal-dialog-centered ">
+                                <form class="border border-light p-5 modal-content">
+
+                                    <div [formGroup]="registrationGroup " class="modal-body">
+
+                                        <label for="textInput" class="inline-label">Bl Mesyuarat</label>
+                                        <input type="text" id="textInput" class="form-control mb-4 "
+                                            formControlName="blMasyu">
+
+                                        <div *ngFor="let validation of validation_messages.blMasyu">
+                                            <div class="error-msg text-danger"
+                                                *ngIf="registrationGroup.get('blMasyu').hasError(validation.type) && (registrationGroup.get('blMasyu').dirty || registrationGroup.get('blMasyu').touched)">
+                                                {{ validation.message }}
+                                            </div>
+                                        </div>
+
+                                        <label for="select">Jenis Mesyuarat</label>
+                                        <select class=" form-control browser-default custom-select mb-4"
+                                            formControlName="jenMasyu" id="select">
+                                            <option value="" disabled="" selected=""></option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
+
+                                        <div *ngFor="let validation of validation_messages.jenMasyu">
+                                            <div class="error-msg text-danger"
+                                                *ngIf="registrationGroup.get('jenMasyu').hasError(validation.type) && (registrationGroup.get('jenMasyu').dirty || registrationGroup.get('jenMasyu').touched)">
+                                                {{ validation.message }}
+                                            </div>
+                                        </div>
+
+                                        <label for="select">Jenis Jawatankuasa</label>
+                                        <select class="browser-default custom-select mb-4 form-control"
+                                            formControlName="jenJawat" id="select">
+                                            <option value="" disabled="" selected=""></option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
+
+                                        <div *ngFor="let validation of validation_messages.jenJawat">
+                                            <div class="error-msg text-danger"
+                                                *ngIf="registrationGroup.get('jenJawat').hasError(validation.type) && (registrationGroup.get('jenJawat').dirty || registrationGroup.get('jenJawat').touched)">
+                                                {{ validation.message }}
+                                            </div>
+                                        </div>
+
+                                        <label for="select">Tarikh Mesyuarat</label>
+                                        <select class="browser-default custom-select mb-4 form-control"
+                                            formControlName="tarMasyu" id="select">
+                                            <option value="" disabled="" selected=""></option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
+                                        <div *ngFor="let validation of validation_messages.tarMasyu">
+                                            <div class="error-msg text-danger"
+                                                *ngIf="registrationGroup.get('tarMasyu').hasError(validation.type) && (registrationGroup.get('tarMasyu').dirty || registrationGroup.get('tarMasyu').touched)">
+                                                {{ validation.message }}
+                                            </div>
+                                        </div>
+
+                                        <label for="select">HINGGA</label>
+                                        <select class="browser-default custom-select mb-4 form-control"
+                                            formControlName="hingga" id="select">
+                                            <option value="" disabled="" selected=""></option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
+                                        <div *ngFor="let validation of validation_messages.hingga">
+                                            <div class="error-msg text-danger"
+                                                *ngIf="registrationGroup.get('hingga').hasError(validation.type) && (registrationGroup.get('hingga').dirty || registrationGroup.get('hingga').touched)">
+                                                {{ validation.message }}
+                                            </div>
+                                        </div>
+
+                                        <div class="text-center">
+                                            <button class="btn btn-info  my-4 inline"><a
+                                                    href="admin6.html">Baruu</a></button>
+                                            <!-- <button class="btn btn-info  my-4 inline"><a
+                                                    href="admin6.html">Baru</a></button> -->
+                                            <button class="btn btn-info  my-4 inline" type="clear"><a
+                                                    href="admin7.html">
+                                                    Carii</a></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                </section><!-- End Services Section -->
+
+            </div>
+
+        </section>
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-info">
+                            <h3>PPKS</h3>
+                            <p>
+                                Malaysia<br><br>
+                                <strong>Phone:</strong> +1 5589 55488 55<br>
+                                <strong>Email:</strong> info@example.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                                                   <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+  © <strong><span>JKAS</span></strong>. All Rights Reserved            </div>
+            <div class="credits">
+               
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
